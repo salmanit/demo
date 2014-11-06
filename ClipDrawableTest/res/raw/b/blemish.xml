@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="The dealer agreed to lower the price because of the
+many blemishes on the surface of the wooden furniture."
+        explain="an imperfection, flaw"
+        pronunciation="&apos;blemi&amp;#643;"
+        synonyms=""
+        word="blemish" />
+
+</root>

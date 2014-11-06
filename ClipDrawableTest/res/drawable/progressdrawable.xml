@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+   
+    <item android:id="@android:id/background">
+        <shape ><solid android:color="#888"/>
+</shape>
+    </item>
+     <item android:drawable="@drawable/red_press" android:id="@android:id/progress"  >
+<!--          <clip>   -->
+<!--            <nine-patch android:src="@drawable/red_press">   -->
+<!--            </nine-patch>   -->
+<!--        </clip>   -->
+<!-- <scale android:drawable="@drawable/btn_croci_color_normal" android:scaleWidth="100%" />  -->
+    </item>
+</layer-list>

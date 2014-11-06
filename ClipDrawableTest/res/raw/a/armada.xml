@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Queen Elizabeth&apos;s navy defeated the mighty armada that threatened the English coast"
+        explain="fleet of warships"
+        pronunciation="a:&apos;ma:d&amp;#601;"
+        synonyms=""
+        word="armada" />
+
+</root>

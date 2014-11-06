@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Although age had blanched his hair, he was still vigorous and energetic"
+        explain="bleach; whiten"
+        pronunciation="bla:nt&amp;#643;"
+        synonyms=""
+        word="blanch" />
+
+</root>

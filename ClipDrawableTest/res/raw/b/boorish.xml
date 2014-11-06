@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Natasha was embarrassed by her fellow spy&apos;s boorish behavior.&quot;If you cannot act like a gentleman, Boris, go back to Russia: espi-onage is no job for clumsy boors"
+        explain="rude; clumsy; ungentlemanly"
+        pronunciation="&apos;buri&amp;#643;"
+        synonyms=""
+        word="boorish" />
+
+</root>

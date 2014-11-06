@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Azure skies are indicative of good weather"
+        explain="sky blue"
+        pronunciation="&amp;#230;&amp;#658;&amp;#601;"
+        synonyms=""
+        word="azure" />
+
+</root>

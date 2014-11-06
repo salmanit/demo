@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:abc="http://schemas.android.com/apk/res-auto"
+    xmlns:abcd="http://schemas.android.com/apk/res/org.crazyit.res"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#99ff88aa"
+        android:orientation="horizontal" >
+
+        <org.crazyit.res.irregulariv.MyOnePicButton
+            android:id="@+id/myOnePicButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/choujiang1"
+            android:layout_marginLeft="-8dp"
+            android:text="MyOnePicButton" />
+        <org.crazyit.res.irregulariv.MyOnePicButton
+            android:id="@+id/myOnePicButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/choujiang1"
+            android:layout_marginLeft="-7dp"
+            android:text="MyOnePicButton" />
+       
+
+    </LinearLayout>
+    
+            <SearchView
+            android:id="@+id/sv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        </SearchView>
+
+ <org.crazyit.res.irregulariv.CustomShape
+            android:id="@+id/myOnePicButton3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            
+            android:layout_marginLeft="7dp"
+             />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+       <org.crazyit.res.irregulariv.BottomcutImageview
+        android:id="@+id/bottom1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+       android:clickable="true"
+        abc:src="@drawable/btnok1green"
+        abc:clip_height="@dimen/clipheight"
+         />
+<!--     <org.crazyit.res.irregulariv.TopcutImageview -->
+<!--         android:id="@+id/imageView1" -->
+<!--         android:layout_marginTop="@dimen/clipmagrin" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="0dp" -->
+<!--         android:layout_weight="1" -->
+<!--         abcd:src="@drawable/choujiang11" -->
+<!--         abcd:clip_height="@dimen/clipheight" -->
+<!--          /> -->
+
+       <ListView
+           android:id="@+id/lv"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" >
+       </ListView>
+
+    </LinearLayout>
+
+  
+
+</LinearLayout>

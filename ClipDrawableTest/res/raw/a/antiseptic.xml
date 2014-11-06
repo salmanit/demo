@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="It is advis-able to apply an antiseptic to any wound, no matter how slight or insignificant"
+        explain="substance that prevents infection"
+        pronunciation="&amp;#230;nti&apos;septik"
+        synonyms=""
+        word="antiseptic" />
+
+</root>

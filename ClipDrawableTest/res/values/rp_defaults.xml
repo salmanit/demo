@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_round_progress_roundColor">#30000000</color>
+    <color name="default_round_progress_roundProgressColor">#339933</color>
+    <color name="default_round_progress_roundProgressTextColor">#339933</color>
+    <dimen name="default_round_progress_roundWidth">2dp</dimen>
+    <bool name="default_round_progress_displayPercentage">true</bool>
+    <dimen name="default_round_progress_roundProgressTextSize">12sp</dimen>
+    <dimen name="default_round_progress_roundRadius">25dp</dimen>
+    <integer name="default_round_progress_max">100</integer>
+    <integer name="default_round_progress_progress">0</integer>
+</resources>

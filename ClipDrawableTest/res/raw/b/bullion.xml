@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Much bullion is stored in the vaults at Fort Knox"
+        explain="gold and silver in the form of bars"
+        pronunciation="&apos;bulj&amp;#601;n"
+        synonyms=""
+        word="bullion" />
+
+</root>

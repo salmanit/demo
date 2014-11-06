@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bgColor_layout_subise_pactselect_data_row_normal">#f1f1f1</color>
+    <color name="bgColor_layout_subise_pactselect_data_row_pressed">#c7dcef</color>
+    <color name="blue">#50bcfa</color>
+    <color name="green">#58b530</color>
+    <color name="gray">#cacaca</color>
+
+</resources>

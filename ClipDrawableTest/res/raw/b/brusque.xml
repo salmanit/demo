@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Was Bruce too brusque when he brushed off Bob&apos;s request with a curt &quot;Not now!&quot;?"
+        explain="blunt; abrupt"
+        pronunciation="brusk"
+        synonyms=""
+        word="brusque" />
+
+</root>

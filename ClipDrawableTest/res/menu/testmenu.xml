@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:support="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/item_search"
+        android:icon="@android:drawable/btn_star"
+        android:title="search"
+        support:actionViewClass="android.support.v7.widget.SearchView"
+        support:showAsAction="ifRoom|collapseActionView"/>
+    <item
+        android:id="@+id/item_add"
+        android:actionProviderClass="org.crazyit.res.fragment.MyActionProvider"
+        android:icon="@drawable/btnpause"
+        android:title="add"
+        support:showAsAction="ifRoom|collapseActionView"/>
+<!--     <item -->
+<!--         android:id="@+id/shared" -->
+<!--         android:title="share" -->
+<!--         support:actionProviderClass="android.support.v7.widget.ShareActionProvider" -->
+<!--         support:showAsAction="ifRoom|collapseActionView"/> -->
+    <item
+        android:id="@+id/item_submenu"
+        android:icon="@android:drawable/btn_minus"
+        android:title="popupmenu"
+        support:showAsAction="ifRoom|collapseActionView"/>
+
+</menu>

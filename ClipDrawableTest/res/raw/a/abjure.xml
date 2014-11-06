@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="He abjured his allegiance to the king"
+        explain="renounce upon oath"
+        pronunciation="&amp;#601;b&apos;d&amp;#658;u&amp;#601;"
+        synonyms=""
+        word="abjure" />
+
+</root>

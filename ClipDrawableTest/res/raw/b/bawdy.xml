@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Jack took offense at Jill&apos;s bawdy remarks.What kind of young man did she think he was?"
+        explain="indecent; obscene"
+        pronunciation="&apos;b&amp;#596;d&amp;#618;"
+        synonyms=""
+        word="bawdy" />
+
+</root>

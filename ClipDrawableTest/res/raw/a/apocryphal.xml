@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="To impress his friends, Tom invented apocryphal tales of his adventures in the big city"
+        explain="untrue; made up"
+        pronunciation="&amp;#601;&apos;p&amp;#596;krif&amp;#601;l"
+        synonyms=""
+        word="apocryphal" />
+
+</root>

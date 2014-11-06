@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="224dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="224dp"
+        android:layout_height="156dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/thumbnail_image"
+            android:layout_width="224dp"
+            android:layout_height="156dp"
+            android:scaleType="fitXY"
+           
+            />
+        <RelativeLayout
+            android:id="@+id/op_container"
+            android:layout_width="224dp"
+            android:layout_height="156dp"
+            android:visibility="visible">
+            <org.crazyit.res.widget.ProgressWheel
+                android:id="@+id/progress"
+                android:layout_width="145dp"
+                android:layout_height="145dp"
+                ProgressWheel:textColor="#222222"
+                ProgressWheel:textSize="14sp"
+                ProgressWheel:rimColor="#44000000"
+                ProgressWheel:barLength="60dp"
+                ProgressWheel:barColor="#339BB9"
+                ProgressWheel:barWidth="0dp"
+                ProgressWheel:rimWidth="100dp"
+                ProgressWheel:spinSpeed="16dp"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id="@+id/play"
+                android:layout_width="115dp"
+                android:layout_height="115dp"
+                android:src="@drawable/btnpause"
+                android:layout_centerInParent="true"
+                android:visibility="gone"/>
+         </RelativeLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/infor_content"
+        android:layout_width="224dp"
+        android:layout_height="56dp">
+        <TextView
+            android:id="@+id/video_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/video_name"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:text="程法庆"/>
+        <TextView
+            android:id="@+id/update_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/video_name"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/username"
+            android:layout_marginTop="2dp"
+            android:text="2012-11-11"/>
+
+        <ImageView
+            android:id="@+id/fav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="28dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/abc_ic_search"/>
+     </RelativeLayout>
+
+</LinearLayout>

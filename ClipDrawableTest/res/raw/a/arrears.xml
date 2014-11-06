@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="He was in arrears with his pay-ments on the car"
+        explain="being in debt"
+        pronunciation="&amp;#601;&apos;ri&amp;#601;z"
+        synonyms=""
+        word="arrears" />
+
+</root>

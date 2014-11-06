@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="An aphorism differs from an adage in that it is more philosophical or scientific.&quot;The proper study of mankind is man&quot; is an aphorism. &quot;There&apos;s no smoke without a fire&quot; is an adage"
+        explain="pithy maxim"
+        pronunciation="&apos;&amp;#230;f&amp;#601;,r&amp;#618;z&amp;#601;m"
+        synonyms=""
+        word="aphorism" />
+
+</root>

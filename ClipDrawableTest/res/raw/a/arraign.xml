@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="After his indictment by the Grand Jury, the accused man was arraigned in the County Criminal Court"
+        explain="charge in court; indict"
+        pronunciation="&amp;#601;&apos;r&amp;#601;in"
+        synonyms=""
+        word="arraign" />
+
+</root>

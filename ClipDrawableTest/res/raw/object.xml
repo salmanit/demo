@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+
+    <object
+        type="2"
+        v="2.0" >
+        <object
+            id="0"
+            type="2"
+            v="1.0"
+            x="0.101010"
+            y="0.070922" />
+        <object
+            id="1"
+            type="4"
+            v="1.0"
+            x="0.111111"
+            y="0.034043" >
+            <mk>
+<![CDATA[A<a/>]]></mk>
+
+            <dp on="0" />
+        </object>
+        <object
+            id="2"
+            type="2"
+            v="1.0"
+            x="0.505051"
+            y="0.070922" />
+        <object
+            id="3"
+            type="4"
+            v="1.0"
+            x="0.515152"
+            y="0.034043" >
+            <mk>
+<![CDATA[B]]></mk>
+
+            <dp on="2" />
+        </object>
+        <object
+            id="4"
+            type="2"
+            v="1.0"
+            x="0.505051"
+            y="0.354610" />
+        <object
+            id="5"
+            type="4"
+            v="1.0"
+            x="0.515152"
+            y="0.317730" >
+            <mk>
+<![CDATA[C]]></mk>
+
+            <dp on="4" />
+        </object>
+        <object
+            id="6"
+            type="2"
+            v="1.0"
+            x="0.101010"
+            y="0.354610" />
+        <object
+            id="7"
+            type="4"
+            v="1.0"
+            x="0.111111"
+            y="0.317730" >
+            <mk>
+<![CDATA[D]]></mk>
+
+            <dp on="6" />
+        </object>
+        <object
+            id="8"
+            cl="#000000"
+            sy="0"
+            sz="1"
+            type="3"
+            v="1.0" >
+            <dp on="0" />
+            <dp on="2" />
+        </object>
+        <object
+            id="9"
+            cl="#000000"
+            sy="0"
+            sz="1"
+            type="3"
+            v="1.0" >
+            <dp on="2" />
+            <dp on="4" />
+        </object>
+        <object
+            id="10"
+            cl="#000000"
+            sy="0"
+            sz="1"
+            type="3"
+            v="1.0" >
+            <dp on="4" />
+            <dp on="6" />
+        </object>
+        <object
+            id="11"
+            cl="#000000"
+            sy="0"
+            sz="1"
+            type="3"
+            v="1.0" >
+            <dp on="6" />
+            <dp on="0" />
+        </object>
+    </object>
+
+</objects>

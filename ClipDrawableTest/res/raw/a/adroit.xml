@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="His adroit handling of the delicate situa-tion pleased his employers"
+        explain="skillful"
+        pronunciation="&amp;#601;&apos;dr&amp;#596;it"
+        synonyms=""
+        word="adroit" />
+
+</root>

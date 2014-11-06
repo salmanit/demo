@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Despite the salesperson&apos;s bland-ishments, the customer did not buy the outfit"
+        explain="flattery"
+        pronunciation="&apos;bl&amp;#230;nd&amp;#618;&amp;#643;m&amp;#601;nt"
+        synonyms=""
+        word="blandishment" />
+
+</root>

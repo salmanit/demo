@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="The fortune teller made baleful predictions of terrible things to come"
+        explain="deadly; having a malign influence; ominous"
+        pronunciation="&apos;beilful"
+        synonyms=""
+        word="baleful" />
+
+</root>

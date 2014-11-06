@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="In Hollywood, an &quot;Oscar&quot; is the highest accolade"
+        explain="award of merit"
+        pronunciation="&amp;#230;k&amp;#601;&apos;l&amp;#601;id"
+        synonyms=""
+        word="accolade" />
+
+</root>

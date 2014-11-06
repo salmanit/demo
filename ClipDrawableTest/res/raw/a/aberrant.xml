@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Given the aberrant nature of the data, we doubted the validity of the entire experiment"
+        explain="abnormal or deviant"
+        pronunciation="&amp;#230;&apos;b&amp;#601;r&amp;#601;nt"
+        synonyms="deviant"
+        word="aberrant" />
+
+</root>

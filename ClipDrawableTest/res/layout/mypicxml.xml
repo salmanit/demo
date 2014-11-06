@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:clip="http://schemas.android.com/apk/res/com.meg7.widget"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btnselect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#68BD44"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btngetcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取验证码" />
+    </LinearLayout>
+
+    <!-- <com.jess.ui.TwoWayGridView -->
+    <!-- android:id="@+id/twogv" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="100dp" -->
+    <!-- android:layout_alignParentBottom="true" -->
+    <!-- android:layout_marginTop="7dp" -->
+    <!-- android:background="#E8E8E8" -->
+    <!-- app:cacheColorHint="#00000000" -->
+    <!-- app:columnWidth="150dp" -->
+    <!-- app:gravity="center" -->
+    <!-- app:horizontalSpacing="0dp" -->
+    <!-- app:numColumns="auto_fit" -->
+    <!-- app:numRows="1" -->
+    <!-- app:rowHeight="100dp" -->
+    <!-- app:scrollDirectionLandscape="horizontal" -->
+    <!-- app:scrollDirectionPortrait="horizontal" -->
+    <!-- app:stretchMode="spacingWidthUniform" -->
+    <!-- app:verticalSpacing="0dp" /> -->
+
+    <com.jess.ui.TwoWayGridView
+        android:id="@+id/twogv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="2dp"
+        android:background="#00000000"
+        app:cacheColorHint="#00000000"
+        app:columnWidth="99dp"
+        app:gravity="center"
+        app:horizontalSpacing="0dp"
+        app:numColumns="auto_fit"
+        app:numRows="1"
+        app:rowHeight="100dp"
+        app:scrollDirectionLandscape="horizontal"
+        app:scrollDirectionPortrait="horizontal"
+        app:stretchMode="spacingWidthUniform"
+        app:verticalSpacing="0dp" />
+
+    <LinearLayout
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <org.crazyit.res.playgif.PowerImageView
+            android:id="@+id/powerImageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/superman"
+            app:auto_play="true" />
+
+        <org.crazyit.res.widget.MyOnePicImageView
+            android:id="@+id/myiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/android_ratingbar_single"
+            android:src="@drawable/android_ratingbar_single_light" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <org.crazyit.res.playgif.CircularProgress
+            android:id="@+id/circularProgress1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:roundMax="100"
+            app:roundProgress="80" />
+
+        <com.meg7.widget.CustomShapeImageView
+            android:id="@+id/customShapeImageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/choujiang10" />
+    </LinearLayout>
+
+
+    <org.crazyit.res.playgif.Numberprogress
+        android:id="@+id/numberpg"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:progressDrawable="@drawable/progressdrawable"
+        android:max="100"
+        android:progress="50" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:max="100"
+        android:progress="50"
+        android:progressDrawable="@drawable/progressdrawable"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/ivresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/_background" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="After the automobile accident, the victim had periods of aphasia when he could not speak at all or could only mumble inco-herently"
+        explain="loss of speech due to injury or illness"
+        pronunciation="&amp;#601;&apos;fe&amp;#658;&amp;#618;&amp;#601;"
+        synonyms=""
+        word="aphasia" />
+
+</root>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Greta’s boyfriend played her a ballad on the guitar during their
+walk through the dark woods."
+        explain="a love song"
+        pronunciation="&apos;b&amp;#230;l&amp;#601;d"
+        synonyms=""
+        word="ballad" />
+
+</root>

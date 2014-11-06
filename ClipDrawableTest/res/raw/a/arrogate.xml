@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="The king arrogated the right to order
+executions to himself exclusively."
+        explain="to take without justification"
+        pronunciation="&apos;&amp;#230;r&amp;#601;ug&amp;#601;it"
+        synonyms=""
+        word="arrogate" />
+
+</root>

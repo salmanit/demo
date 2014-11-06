@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="The car would not go up the acclivity in high gear"
+        explain="sharp upslope of a hill"
+        pronunciation="&amp;#601;&apos;kl&amp;#618;v&amp;#601;t&amp;#618;"
+        synonyms=""
+        word="acclivity" />
+
+</root>

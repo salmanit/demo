@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.salman.abctestdemo.MainActivity" >
+<item android:id="@+id/item_search"
+       android:title="search"
+       android:icon="@android:drawable/btn_star"
+       android:showAsAction="ifRoom|collapseActionView"
+       app:showAsAction="ifRoom|collapseActionView"
+       android:actionViewClass="android.widget.SearchView"/>
+    <item
+        android:id="@+id/submit_menu"
+        android:showAsAction="always"
+        android:title="tijiao"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/tijiao"
+        android:icon="@drawable/sun"
+        android:showAsAction="always|withText"
+        android:actionProviderClass="org.crazyit.res.MytestProvider"
+        android:title="提交"
+        app:showAsAction="always"/>
+
+</menu>

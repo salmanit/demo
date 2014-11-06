@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=".jpg"
+    soundtype=".mp3" >
+
+    <word
+        example="Though their apartment lacked a full-scale dining room, an alcove adjacent to the living room made an adequate breakfast nook for the young couple"
+        explain="nook; small, recessed section of a room"
+        pronunciation="&apos;&amp;#230;lkov"
+        synonyms=""
+        word="alcove" />
+
+</root>

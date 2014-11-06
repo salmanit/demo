@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="This idiotic plan is confusing enough to addle anyone"
+        explain="muddle; drive crazy; become rotten"
+        pronunciation="&apos;&amp;#230;d!"
+        synonyms=""
+        word="addle" />
+
+</root>

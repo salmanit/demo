@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Polio victims need physiother-apy to prevent the atrophy of affected limbs"
+        explain="wasting away"
+        pronunciation="&apos;&amp;#230;tr&amp;#601;fi"
+        synonyms=""
+        word="atrophy" />
+
+</root>

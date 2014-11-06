@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Macbeth was startled when the witches greeted him with an incorrect appellation.Why did they call him Thane of Cawdor, he wondered, when the holder of that title still lived?"
+        explain="name; title"
+        pronunciation="&amp;#230;p&amp;#601;&apos;l&amp;#601;i&amp;#643;&amp;#601;n"
+        synonyms=""
+        word="appellation" />
+
+</root>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Your asinine remarks prove that you have not given this problem any serious consideration"
+        explain="stupid"
+        pronunciation="&apos;&amp;#230;sin&amp;#230;in"
+        synonyms=""
+        word="asinine" />
+
+</root>

@@ -1,0 +1,307 @@
+# view res/layout/test1.xml #generated:7
+-keep class android.gesture.GestureOverlayView { <init>(...); }
+
+# view res/layout/scaleimagexml.xml #generated:37
+# view res/layout/testchildclip.xml #generated:8
+# view res/layout/weikedraw.xml #generated:46
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:19
+# view res/layout/abc_action_bar_decor_include.xml #generated:47
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:35
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:64
+-keep class android.support.v7.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:31
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:49
+# view res/layout/abc_action_mode_bar.xml #generated:19
+-keep class android.support.v7.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:18
+-keep class android.support.v7.internal.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_action_bar_decor_include.xml #generated:25
+# view res/layout/abc_action_bar_decor_overlay.xml #generated:43
+-keep class android.support.v7.internal.widget.ActionBarView { <init>(...); }
+
+# view res/layout/abc_action_bar_home.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarView$HomeView { <init>(...); }
+
+# view res/layout/abc_action_bar_tabbar.xml #generated:17
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.internal.widget.LinearLayoutICS { <init>(...); }
+
+# view v11\res/layout-v11/abc_action_bar_decor.xml #generated:17
+-keep class android.support.v7.internal.widget.NativeActionModeAwareLayout { <init>(...); }
+
+# view res/layout/abc_action_bar_tab.xml #generated:17
+-keep class android.support.v7.internal.widget.ScrollingTabContainerView$TabView { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:85
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/autoscrollvp.xml #generated:7
+-keep class cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager { <init>(...); }
+
+# view res/layout/mypicxml.xml #generated:52
+-keep class com.jess.ui.TwoWayGridView { <init>(...); }
+
+# view res/layout/mypicxml.xml #generated:102
+-keep class com.meg7.widget.CustomShapeImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class org.crazyit.res.ClipDrawableTest { <init>(...); }
+
+# view res/layout/main.xml #generated:8
+-keep class org.crazyit.res.DragGridView { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class org.crazyit.res.JUSTtest { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class org.crazyit.res.Listview1activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class org.crazyit.res.Main { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class org.crazyit.res.MyAPP { <init>(...); }
+
+# view res/layout/main.xml #generated:105
+-keep class org.crazyit.res.MyView { <init>(...); }
+
+# view res/layout/scaleimageview.xml #generated:7
+-keep class org.crazyit.res.ScaleBitmap { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class org.crazyit.res.ScaleBitmapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class org.crazyit.res.ViewToBitmap { <init>(...); }
+
+# view AndroidManifest.xml #generated:114
+-keep class org.crazyit.res.animation.AnimationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class org.crazyit.res.authenticator.AuthenticationService { <init>(...); }
+
+# view AndroidManifest.xml #generated:169
+-keep class org.crazyit.res.authenticator.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class org.crazyit.res.authenticator.YoushiAccountSyncService { <init>(...); }
+
+# view AndroidManifest.xml #generated:138
+-keep class org.crazyit.res.bgsms.SMSsendActivity { <init>(...); }
+
+# view res/layout/l.xml #generated:57
+-keep class org.crazyit.res.blank.CustomView { <init>(...); }
+
+# view res/layout/justtest.xml #generated:7
+-keep class org.crazyit.res.blank.TestView { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class org.crazyit.res.blank.WhiteBoardActivity { <init>(...); }
+
+# view res/layout/testhorscrollview.xml #generated:89
+-keep class org.crazyit.res.custom.MyGridviewSimple { <init>(...); }
+
+# view res/layout/testhorscrollview.xml #generated:41
+-keep class org.crazyit.res.custom.MyHorizontalScroll { <init>(...); }
+
+# view res/layout/customitem.xml #generated:2
+-keep class org.crazyit.res.custom.Schoollayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class org.crazyit.res.custom.Schoolsitelist { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class org.crazyit.res.custom.TestScrollviewAC { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class org.crazyit.res.custom.TriangleActivity { <init>(...); }
+
+# view res/layout/mydrawview.xml #generated:6
+-keep class org.crazyit.res.customdraw.MyDrawView { <init>(...); }
+
+# view AndroidManifest.xml #generated:126
+-keep class org.crazyit.res.customdraw.MydrawActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:139
+-keep class org.crazyit.res.custompiechart.PieActivity { <init>(...); }
+
+# view res/layout/piechart.xml #generated:13
+-keep class org.crazyit.res.custompiechart.PieView { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class org.crazyit.res.dialogfragment.FragmentDialogDemo { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class org.crazyit.res.drawrecord.DrawRecordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:134
+-keep class org.crazyit.res.gridview.Gridactivity { <init>(...); }
+
+# view res/layout/ivtest.xml #generated:10
+-keep class org.crazyit.res.image.FlipImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class org.crazyit.res.image.SampleActivity { <init>(...); }
+
+# view res/layout/irregular_iv_test.xml #generated:52
+-keep class org.crazyit.res.irregulariv.BottomcutImageview { <init>(...); }
+
+# view res/layout/irregular_iv_test.xml #generated:40
+-keep class org.crazyit.res.irregulariv.CustomShape { <init>(...); }
+
+# view AndroidManifest.xml #generated:130
+-keep class org.crazyit.res.irregulariv.IrrgularActivity { <init>(...); }
+
+# view res/layout/irregular_iv_test.xml #generated:15
+# view res/layout/irregular_iv_test.xml #generated:22
+-keep class org.crazyit.res.irregulariv.MyOnePicButton { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class org.crazyit.res.luckdraw.NOtCircle { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class org.crazyit.res.opengl.Polygon { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class org.crazyit.res.opengl.RotateRPolygon { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class org.crazyit.res.opengl.Texture3D { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class org.crazyit.res.opengl.TriangularPyramid { <init>(...); }
+
+# view res/layout/coordinatexml.xml #generated:7
+-keep class org.crazyit.res.opengltest.CoordinatesView { <init>(...); }
+
+# view res/layout/viewtobitmapxml.xml #generated:48
+-keep class org.crazyit.res.opengltest.MyCustomGraphic { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class org.crazyit.res.opengltest.MyTestTriangular { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class org.crazyit.res.opengltest.TestCoordinatesActivity { <init>(...); }
+
+# view res/layout/mypicxml.xml #generated:95
+-keep class org.crazyit.res.playgif.CircularProgress { <init>(...); }
+
+# view res/layout/mypicxml.xml #generated:110
+-keep class org.crazyit.res.playgif.Numberprogress { <init>(...); }
+
+# view res/layout/mypicxml.xml #generated:75
+-keep class org.crazyit.res.playgif.PowerImageView { <init>(...); }
+
+# view res/layout/progresstest.xml #generated:11
+-keep class org.crazyit.res.progressbar.HorizontalProgressbar { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class org.crazyit.res.progressbar.TestActivity { <init>(...); }
+
+# view res/layout/progresstest.xml #generated:56
+-keep class org.crazyit.res.progressbar.VerticalSeekBar1 { <init>(...); }
+
+# view res/layout/progresstest.xml #generated:40
+-keep class org.crazyit.res.progressbar.VerticalSeekbar { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class org.crazyit.res.scaleimage.ScaleImageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class org.crazyit.res.service.FixedBindServiceDemo { <init>(...); }
+
+# view AndroidManifest.xml #generated:166
+-keep class org.crazyit.res.service.LocalService { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class org.crazyit.res.sms.SMSAUTOreadActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:132
+-keep class org.crazyit.res.sms.ToastActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class org.crazyit.res.surfaceview.AutoScrollvpActivity { <init>(...); }
+
+# view res/layout/autoscrollvp.xml #generated:12
+# view res/layout/fragment1.xml #generated:19
+-keep class org.crazyit.res.surfaceview.MatrixView { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class org.crazyit.res.surfaceview.ShowWave { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class org.crazyit.res.surfaceview.SurfaceViewTest { <init>(...); }
+
+# view res/layout/activity_circel.xml #generated:245
+-keep class org.crazyit.res.temp.TestDrawView { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class org.crazyit.res.testdemo.AnimatorTestActivity { <init>(...); }
+
+# view res/layout/testobjectanimatorxml.xml #generated:7
+# view res/layout/testxml.xml #generated:7
+-keep class org.crazyit.res.testdemo.MatrixLearn1 { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class org.crazyit.res.testdemo.Testactivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:124
+-keep class org.crazyit.res.thumpic.PicActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class org.crazyit.res.twogridview.TwoAcitivty { <init>(...); }
+
+# view res/layout/framentdialogdemo.xml #generated:147
+# view res/layout/weikedraw.xml #generated:41
+-keep class org.crazyit.res.widget.Custprogress { <init>(...); }
+
+# view res/layout/mypicxml.xml #generated:82
+-keep class org.crazyit.res.widget.MyOnePicImageView { <init>(...); }
+
+# view res/layout/framentdialogdemo.xml #generated:134
+# view res/layout/video_item2_layout.xml #generated:26
+# view res/layout/weikedraw.xml #generated:29
+-keep class org.crazyit.res.widget.ProgressWheel { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class org.crazyit.res.yuyin.RecognizeVoice { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class org.crazyit.res.zititexiao.TextviewActivity { <init>(...); }
+
+# onClick res/layout/main.xml #generated:33
+# onClick res/layout/main.xml #generated:40
+-keepclassmembers class * { *** btnclick(...); }
+
+# onClick res/layout/testobjectanimatorxml.xml #generated:56
+# onClick res/layout/testobjectanimatorxml.xml #generated:63
+# onClick res/layout/testobjectanimatorxml.xml #generated:70
+# onClick res/layout/testobjectanimatorxml.xml #generated:77
+# onClick res/layout/testobjectanimatorxml.xml #generated:84
+# onClick res/layout/testobjectanimatorxml.xml #generated:91
+# onClick res/layout/testxml.xml #generated:56
+# onClick res/layout/testxml.xml #generated:63
+# onClick res/layout/testxml.xml #generated:70
+# onClick res/layout/testxml.xml #generated:77
+# onClick res/layout/testxml.xml #generated:84
+# onClick res/layout/testxml.xml #generated:91
+-keepclassmembers class * { *** btnclickTest(...); }
+

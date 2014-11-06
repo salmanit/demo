@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="The aviary at the zoo held nearly 300 birds"
+        explain="enclosure for birds"
+        pronunciation="&apos;eivieri"
+        synonyms=""
+        word="aviary" />
+
+</root>

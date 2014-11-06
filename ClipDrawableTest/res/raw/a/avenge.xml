@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Hamlet vowed he would avenge his father&apos;s mur-der and punish Claudius for his horrible crime"
+        explain="take vengeance for something (or on behalf of someone)"
+        pronunciation="&amp;#601;&apos;&amp;#658;&amp;#601;nd&amp;#658;"
+        synonyms=""
+        word="avenge" />
+
+</root>

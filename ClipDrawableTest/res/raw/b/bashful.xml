@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Frankie’s mother told him not to be bashful when
+he refused to attend the birthday party."
+        explain="shy, excessively timid"
+        pronunciation="&apos;b&amp;#230;&amp;#643;&amp;#643;ul"
+        synonyms=""
+        word="bashful" />
+
+</root>

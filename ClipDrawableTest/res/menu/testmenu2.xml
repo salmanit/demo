@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:support="http://schemas.android.com/apk/res-auto">
+  
+   <item android:id="@+id/item_add"
+       android:title="add"
+       android:icon="@android:drawable/btn_plus"
+       android:actionProviderClass="org.crazyit.res.fragment.MyActionProvider"
+       support:actionProviderClass="org.crazyit.res.fragment.MyActionProviderv4"
+       android:showAsAction="ifRoom|collapseActionView"
+       support:showAsAction="ifRoom|collapseActionView"
+       />
+   <item android:id="@+id/item_submenu"
+       android:title="popupmenu"
+       android:icon="@android:drawable/btn_minus"
+        android:showAsAction="ifRoom|collapseActionView"
+       support:showAsAction="ifRoom|collapseActionView"
+       />
+   <item android:id="@+id/more1"
+       android:title="more1"
+       android:icon="@drawable/iv1"
+       android:checkable="true"
+       android:showAsAction="never"
+       />
+   <item android:id="@+id/more2"
+       android:title="more2"
+       android:icon="@drawable/iv2"
+       android:checkable="true"
+       android:showAsAction="never"
+       />
+   <item android:id="@+id/more3"
+       android:title="more3"
+       android:icon="@drawable/iv3"
+       android:checkable="true"
+       android:showAsAction="never"
+       />
+   <item android:id="@+id/more4"
+       android:title="more4"
+       android:icon="@drawable/iv4"
+       
+       android:showAsAction="never"
+       />
+</menu>

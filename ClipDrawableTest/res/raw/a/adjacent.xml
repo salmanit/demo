@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Philip&apos;s best friend Jason lived only four houses down the block, close but not immediately adjacent"
+        explain="adjoining; neighboring; close by"
+        pronunciation="&amp;#601;&apos;d&amp;#658;es&amp;#601;nt"
+        synonyms=""
+        word="adjacent" />
+
+</root>

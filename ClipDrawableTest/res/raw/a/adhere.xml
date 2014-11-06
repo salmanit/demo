@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="I will adhere to this opinion until proof that I am wrong is presented"
+        explain="stick fast"
+        pronunciation="&amp;#601;d&apos;hi&amp;#601;"
+        synonyms=""
+        word="adhere" />
+
+</root>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="The coach adumbrated a game plan, but
+none of the players knew precisely what to do."
+        explain="to sketch out in a vague way"
+        pronunciation="&apos;&amp;#230;d&amp;#652;m,bret"
+        synonyms=""
+        word="adumbrate" />
+
+</root>

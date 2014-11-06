@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="The refugees sought asylum from religious persecution in a new land"
+        explain="place of refuge or shelter; protection"
+        pronunciation="&amp;#601;&apos;sail&amp;#601;m"
+        synonyms=""
+        word="asylum" />
+
+</root>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="The evildoers abducted the fairy princess from her
+happy home."
+        explain="to kidnap, take by force"
+        pronunciation="&amp;#230;b&apos;d&amp;#652;kt"
+        synonyms=""
+        word="abduct" />
+
+</root>

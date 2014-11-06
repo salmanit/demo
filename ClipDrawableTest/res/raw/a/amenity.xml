@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Bill Gates’s house is stocked with so many
+amenities, he never has to do anything for himself."
+        explain="an item that increases comfort"
+        pronunciation="&amp;#601;&apos;mi:niti"
+        synonyms=""
+        word="amenity" />
+
+</root>

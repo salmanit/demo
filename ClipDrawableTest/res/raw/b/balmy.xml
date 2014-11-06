@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="A balmy breeze refreshed us after the sultry blast"
+        explain="mild; fragrant"
+        pronunciation="&apos;ba:mi"
+        synonyms=""
+        word="balmy" />
+
+</root>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=".jpg"
+    soundtype=".mp3" >
+
+    <word
+        example="In the spring, the plants that burgeon are a promise of the beauty that is to come"
+        explain="grow forth; send out buds"
+        pronunciation="&apos;b&amp;#601;:d&amp;#658;&amp;#601;n"
+        synonyms=""
+        word="burgeon" />
+
+</root>

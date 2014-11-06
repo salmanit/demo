@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.crazyit.res"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCES_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FIND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.RECEIVE_SMS"/>
+	<uses-permission android:name="android.permission.READ_SMS"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+	
+<!-- 	android账户系统权限 -->
+<uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+<uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+<uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+	
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:name="org.crazyit.res.MyAPP"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light" >
+        
+         <service
+            android:name=".authenticator.AuthenticationService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/authenticator" />
+        </service>
+        <!-- 账户同步 -->
+        <service
+            android:name=".authenticator.YoushiAccountSyncService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/syncadapter" />
+<!--             <meta-data -->
+<!--                 android:name="android.provider.CONTACTS_STRUCTURE" -->
+<!--                 android:resource="@xml/contacts" /> -->
+        </service>
+        
+        
+        
+        
+        
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".dialogfragment.FragmentDialogDemo"
+            android:theme="@style/customeActionbarTheme1"></activity>
+        
+        <activity android:name=".JUSTtest" 
+            >
+
+            <!-- <meta-data -->
+            <!-- android:name="android.support.PARENT_ACTIVITY" -->
+            <!-- android:value=".Main"/> -->
+        </activity>
+        <activity android:name=".ClipDrawableTest" />
+        <activity android:name=".ViewToBitmap" />
+        <activity android:name=".opengl.Polygon" />
+        <activity android:name=".opengl.RotateRPolygon" />
+        <activity android:name=".opengl.TriangularPyramid" />
+        <activity
+            android:name=".opengl.Texture3D"
+            android:theme="@android:style/Theme.Light.NoTitleBar" />
+        <activity android:name=".luckdraw.NOtCircle" />
+        <activity android:name=".custom.Schoolsitelist" />
+        <activity android:name=".opengltest.MyTestTriangular" />
+        <activity android:name=".opengltest.TestCoordinatesActivity" />
+        <activity android:name=".surfaceview.SurfaceViewTest" />
+        <activity android:name=".surfaceview.ShowWave" />
+        <activity android:name=".surfaceview.AutoScrollvpActivity" />
+        <activity android:name=".blank.WhiteBoardActivity" />
+        <activity android:name=".ScaleBitmapActivity" />
+        <activity android:name=".image.SampleActivity" />
+        <activity android:name=".animation.AnimationActivity" />
+        <activity android:name=".yuyin.RecognizeVoice" />
+        <activity android:name=".progressbar.TestActivity" />
+        <activity android:name=".custom.TestScrollviewAC" />
+        <activity android:name=".custom.TriangleActivity" />
+        <activity android:name=".service.FixedBindServiceDemo" />
+        <activity android:name=".testdemo.Testactivity" />
+        <activity android:name=".testdemo.AnimatorTestActivity" />
+        <activity android:name=".zititexiao.TextviewActivity" />
+        <activity android:name=".sms.SMSAUTOreadActivity" />
+        <activity android:name=".thumpic.PicActivity" />
+        <activity android:name=".scaleimage.ScaleImageActivity" />
+        <activity android:name=".customdraw.MydrawActivity" />
+        <activity android:name=".drawrecord.DrawRecordActivity" 
+            android:theme="@style/customeActionbarTheme1"/>
+        <activity android:name=".twogridview.TwoAcitivty" />
+        <activity android:name="org.crazyit.res.irregulariv.IrrgularActivity" />
+        
+        <activity android:name=".sms.ToastActivity" 
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name=".gridview.Gridactivity"
+            android:theme="@style/changeheightofactionbar" />
+        <activity android:name=".Listview1activity" />
+        <activity android:name=".bgsms.SMSsendActivity" />
+        <activity android:name="org.crazyit.res.custompiechart.PieActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+>
+
+
+
+        <service android:name=".service.LocalService" >
+        </service>
+        
+        <activity android:name="org.crazyit.res.authenticator.LoginActivity"></activity>
+    </application>
+
+</manifest>

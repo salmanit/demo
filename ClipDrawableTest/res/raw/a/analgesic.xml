@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="The analgesic qualities of this lotion will provide temporary relief"
+        explain="causing insensitivity to pain"
+        pronunciation="&amp;#230;n&amp;#230;l&apos;d&amp;#658;i:zik"
+        synonyms=""
+        word="analgesic" />
+
+</root>

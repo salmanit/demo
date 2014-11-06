@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <org.crazyit.res.testdemo.MatrixLearn1
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </org.crazyit.res.testdemo.MatrixLearn1>
+
+    <ImageView
+        android:id="@+id/iv00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/choujiang5" />
+
+    <ImageView
+        android:id="@+id/ivfront"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/choujiang5" />
+
+    <ImageView
+        android:id="@+id/ivlb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/choujiang5" />
+
+    <ImageView
+        android:id="@+id/ivrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/choujiang5" />
+
+    <ImageView
+        android:id="@+id/ivrb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/choujiang5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnstart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnclickTest"
+            android:text="左上" />
+
+        <Button
+            android:id="@+id/btnlb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnclickTest"
+            android:text="左下" />
+
+        <Button
+            android:id="@+id/btnrt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnclickTest"
+            android:text="右上" />
+
+        <Button
+            android:id="@+id/btnrb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnclickTest"
+            android:text="右下" />
+
+        <Button
+            android:id="@+id/btn00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnclickTest"
+            android:text="顶点图片" />
+
+        <Button
+            android:id="@+id/btncancel"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnclickTest"
+            android:text="cancel" />
+    </LinearLayout>
+
+</FrameLayout>

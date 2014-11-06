@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="Hospitals succeeded in lowering the mortality rate as soon as they introduced aseptic conditions"
+        explain="preventing infection; having a cleansing effect"
+        pronunciation="&amp;#601;&apos;s&amp;#601;ptik"
+        synonyms=""
+        word="aseptic" />
+
+</root>

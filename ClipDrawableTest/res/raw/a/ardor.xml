@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="The soldiers conveyed their ardor with
+impassioned battle cries."
+        explain="extreme vigor, energy, enthusiasm"
+        pronunciation="&apos;&amp;#593;rd&amp;#602;"
+        synonyms=""
+        word="ardor" />
+
+</root>

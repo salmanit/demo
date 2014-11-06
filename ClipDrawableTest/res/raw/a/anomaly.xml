@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="A bird that cannot fly is an anomaly"
+        explain="irregularity"
+        pronunciation="&amp;#601;&apos;n&amp;#596;m&amp;#601;li"
+        synonyms=""
+        word="anomaly" />
+
+</root>

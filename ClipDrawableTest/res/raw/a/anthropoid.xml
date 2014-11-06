@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="The gorilla is the strongest of the anthropoid animals"
+        explain="manlike"
+        pronunciation="&apos;&amp;#230;n&amp;#952;r&amp;#601;,p&amp;#596;&amp;#618;d"
+        synonyms=""
+        word="anthropoid" />
+
+</root>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ivbg"
+                android:layout_width="1234dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/houde" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/FrameLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnLeft"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/arrow_down_float"
+                    android:text="" />
+
+                <org.crazyit.res.custom.MyHorizontalScroll
+                    android:id="@+id/myhor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:background="#44ff00ff" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+                    </LinearLayout>
+                </org.crazyit.res.custom.MyHorizontalScroll>
+
+                <Button
+                    android:id="@+id/btnRight"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@android:drawable/arrow_up_float"
+                    android:text="" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_margin="5dp"
+                android:background="#ff00ff" />
+
+            <HorizontalScrollView
+                android:id="@+id/mScrollView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:scrollbars="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/linearlayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="#33ff0000"
+                    android:orientation="horizontal" >
+
+                    <org.crazyit.res.custom.MyGridviewSimple
+                        android:id="@+id/mygv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_margin="5dp"
+                android:background="#ff00ff" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#3300ff0f" >
+
+                <ImageView
+                    android:id="@+id/ivbg1"
+                    android:layout_width="640dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/houde" />
+
+                <ImageView
+                    android:id="@+id/ivtemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tvindex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@drawable/mi_laucher_pageid"
+                    android:gravity="center"
+                    android:text="1" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/iv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cliptest1" />
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                style="@style/progressbar_style_indeter"
+                android:layout_width="204dp"
+                android:layout_height="15dp"
+                android:indeterminate="true"
+                android:max="100"
+                android:progress="41" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ProgressBar
+                    android:id="@+id/pb3"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:indeterminate="false"
+                    android:indeterminateOnly="false"
+                    android:max="100"
+                    android:progress="90"
+                    android:progressDrawable="@drawable/progressvertical1" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar2"
+                    android:layout_width="30dp"
+                    android:layout_height="120dp"
+                    android:indeterminate="false"
+                    android:indeterminateOnly="false"
+                    android:max="100"
+                    android:progress="30"
+                    android:progressDrawable="@drawable/prgressvertical" />
+
+                <ImageView
+                    android:id="@+id/iv11"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/progress_indeter" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

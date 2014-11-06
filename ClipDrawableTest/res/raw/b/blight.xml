@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root
+    imagetype=""
+    soundtype=".mp3" >
+
+    <word
+        example="The potato blight destroyed the harvest and bankrupted
+many families.) 2. (n.) something that destroys hope (His bad morale is a blight
+upon this entire operation."
+        explain="a plague, disease"
+        pronunciation="blait"
+        synonyms=""
+        word="blight" />
+
+</root>
